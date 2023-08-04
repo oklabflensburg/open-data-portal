@@ -58,7 +58,7 @@ kramdown:
 hero_image: /img/homepage-hero.jpg
 title: " Open-Data der Stadt Flensburg"
 jkan_theme: Default
-greeting: Open-Data Portal der Stadt Flensburg
+greeting: Stadt Flensburg
 exclude:
   - CONTRIBUTING.md
   - Dockerfile
@@ -80,6 +80,5 @@ hypothesis:
   enabled: false
 description: Rechtsgrundlage für den Betrieb des Open-Data-Portals ist das
   Gesetz über offene Daten der Träger der öffentlichen Verwaltung
-  (Offene-Daten-Gesetz - ODaG) . Dort wird in §4 der Betrieb des
-  Open-Data-Portals geregelt.
+  (Offene-Daten-Gesetz - ODaG).
 baseurl: ./
