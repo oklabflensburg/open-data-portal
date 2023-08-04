@@ -78,17 +78,8 @@ exclude:
   - docs
 hypothesis:
   enabled: false
-description: >-
-  Unter offenen Daten (Open Data) versteht man elektronische Daten, die der
-  Allgemeinheit öffentlich, zweckfrei und unverbindlich zur Verfügung gestellt
-  werden. Durch den offenen und strukturierten Zugang zu freiverfügbaren
-  Datenbeständen der öffentlichen Hand, wird staatliches Handeln transparent,
-  nachvollziehbar und überprüfbar. Damit leistet das Open Data Portal des Landes
-  Schleswig-Holstein einen wichtigen Beitrag für die Stärkung des Vertrauens
-  zwischen Politik, Wirtschaft, Medien und Zivilgesellschaft. Das Ziel der
-  Landesregierung ist die Förderung eines transparenten und nachvollziehbaren
-  Regierungshandelns.
-
-
-  Rechtsgrundlage für den Betrieb des Open-Data-Portals ist das Gesetz über offene Daten der Träger der öffentlichen Verwaltung (Offene-Daten-Gesetz - ODaG) . Dort wird in §4 der Betrieb des Open-Data-Portals geregelt.
-baseurl: /
+description: Rechtsgrundlage für den Betrieb des Open-Data-Portals ist das
+  Gesetz über offene Daten der Träger der öffentlichen Verwaltung
+  (Offene-Daten-Gesetz - ODaG) . Dort wird in §4 der Betrieb des
+  Open-Data-Portals geregelt.
+baseurl: ./
