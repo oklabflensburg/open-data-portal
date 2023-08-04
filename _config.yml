@@ -1,37 +1,23 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
-logo: /img/jkan.png
-hero_image: /img/homepage-hero.jpg
-
-# Site theme
-jkan_theme: Default
-
-# Dataset schema
+google_analytics:
+  enabled: false
+  code: UA-XXXXXX-1
+plugins:
+  - jekyll-github-metadata
+  - jekyll-relative-links
+  - jekyll-paginate-v2
+  - jekyll-titles-from-headings
 schema: default
-
-# Nav bar
-navigation:
-  - title: Datasets
-    url: /datasets/
-  - title: Organizations
-    url: /organizations/
-  - title: Categories
-    url: /categories/
-
-# Collections
-collections:
-  datasets:
-    output: true
-    permalink: /datasets/:path/
-  organizations:
-    output: true
-    permalink: /organizations/:path/
-  dataset_categories:
-    output: true
-    permalink: /categories/:path/
-
-# Collections (cont'd)
+twittercard:
+  enabled: false
+  username: "@"
+digital_analytics_program:
+  enabled: false
+  agency: ""
+  subagency: ""
+opengraph:
+  enabled: true
+logo: /img/jkan.png
+markdown: kramdown
 defaults:
   - scope:
       path: ""
@@ -50,45 +36,29 @@ defaults:
       type: organizations
     values:
       layout: organization
-
-# Markdown settings
-markdown: kramdown
+navigation:
+  - title: Datasets
+    url: /datasets/
+  - title: Organizations
+    url: /organizations/
+  - title: Categories
+    url: /categories/
+collections:
+  datasets:
+    output: true
+    permalink: /datasets/:path/
+  organizations:
+    output: true
+    permalink: /organizations/:path/
+  dataset_categories:
+    output: true
+    permalink: /categories/:path/
 kramdown:
   input: GFM
-
-# Google Analytics
-google_analytics:
-  enabled: false
-  code: "UA-XXXXXX-1"
-
-# US Digital Analytics Program - https://analytics.usa.gov
-digital_analytics_program:
-  enabled: false
-  agency: ""
-  subagency: ""
-
-# Hypothesis.io - Annotator
-hypothesis:
-  enabled: false
-
-# Twitter
-twittercard:
-  enabled: false
-  username: "@"
-
-# Open Graph
-opengraph:
-  enabled: true
-
-# Plugins
-plugins:
-  - "jekyll-github-metadata"
-  - "jekyll-relative-links"
-  - "jekyll-paginate-v2"
-  - "jekyll-titles-from-headings"
-
-
-# Exclude these files from the build
+hero_image: /img/homepage-hero.jpg
+title: " Open-Data Portal der Stadt Flensburg"
+jkan_theme: Default
+greeting: " Willkommen auf dem Open-Data Portal der Stadt Flensburg"
 exclude:
   - CONTRIBUTING.md
   - Dockerfile
@@ -106,3 +76,19 @@ exclude:
   - netlify.toml
   - .parcel-cache
   - docs
+hypothesis:
+  enabled: false
+description: >-
+  Unter offenen Daten (Open Data) versteht man elektronische Daten, die der
+  Allgemeinheit öffentlich, zweckfrei und unverbindlich zur Verfügung gestellt
+  werden. Durch den offenen und strukturierten Zugang zu freiverfügbaren
+  Datenbeständen der öffentlichen Hand, wird staatliches Handeln transparent,
+  nachvollziehbar und überprüfbar. Damit leistet das Open Data Portal des Landes
+  Schleswig-Holstein einen wichtigen Beitrag für die Stärkung des Vertrauens
+  zwischen Politik, Wirtschaft, Medien und Zivilgesellschaft. Das Ziel der
+  Landesregierung ist die Förderung eines transparenten und nachvollziehbaren
+  Regierungshandelns.
+
+
+  Rechtsgrundlage für den Betrieb des Open-Data-Portals ist das Gesetz über offene Daten der Träger der öffentlichen Verwaltung (Offene-Daten-Gesetz - ODaG) . Dort wird in §4 der Betrieb des Open-Data-Portals geregelt.
+baseurl: https://chimerical-phoenix-e17587.netlify.app
