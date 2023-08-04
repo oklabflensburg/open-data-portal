@@ -56,9 +56,9 @@ collections:
 kramdown:
   input: GFM
 hero_image: /img/homepage-hero.jpg
-title: " Open-Data Portal der Stadt Flensburg"
+title: " Open-Data der Stadt Flensburg"
 jkan_theme: Default
-greeting: " Willkommen auf dem Open-Data Portal der Stadt Flensburg"
+greeting: Open-Data Portal der Stadt Flensburg
 exclude:
   - CONTRIBUTING.md
   - Dockerfile
