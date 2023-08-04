@@ -1,5 +1,5 @@
 ---
-name: Kunst und Kultur
+name: Freizeit und Kultur
 logo: "/img/categories/arts-culture-history.svg"
 featured: true
 ---
